@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ahmet Akpınar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <img src="images/logo.png" alt="Logo">
+                <span>Ahmet Akpınar</span>
+            </a>
+            <ul class="navbar__menu" id="navMenu">
+                <li><a href="index.html" class="navbar__link">Home</a></li>
+                <li><a href="cv.html" class="navbar__link">CV</a></li>
+                <li><a href="projects.html" class="navbar__link">Projects</a></li>
+                <li><a href="about.html" class="navbar__link">About</a></li>
+                <li><a href="contact.html" class="navbar__link active">Contact</a></li>
+            </ul>
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="section" style="padding-top: 120px;">
+        <div class="container">
+            <h1 class="text-center mb-lg">Get in Touch</h1>
+            <p class="text-center" style="color: var(--text-secondary); margin-bottom: 3rem;">
+                If you have any questions, requests, or issues, please feel free to let me know using the form below.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section">
+        <div class="container">
+            <div class="grid-2">
+                <!-- Form -->
+                <div class="glass-card">
+                    <h2 class="mb-md">Send Message</h2>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name"
+                                required>
+                            <div class="form-error" id="nameError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input"
+                                placeholder="example@email.com" required>
+                            <div class="form-error" id="emailError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-input"
+                                placeholder="Subject of your message" required>
+                            <div class="form-error" id="subjectError"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea"
+                                placeholder="Write your message here..." required></textarea>
+                            <div class="form-error" id="messageError"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i> Your message has been sent successfully!
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <div class="glass-card mb-md">
+                        <h3 class="mb-md">Contact Information</h3>
+                        <div style="margin-bottom: 1.5rem;">
+                            <i class="fas fa-envelope" style="color: var(--accent); margin-right: 0.5rem;"></i>
+                            <strong>Email:</strong> ahmetakpinar.dev [at] gmail . com
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <i class="fas fa-map-marker-alt" style="color: var(--accent); margin-right: 0.5rem;"></i>
+                            <strong>Location:</strong> Ankara, Turkey
+                        </div>
+                        <div>
+                            <i class="fas fa-university" style="color: var(--accent); margin-right: 0.5rem;"></i>
+                            <strong>University:</strong> Ankara University<br>
+                            <span style="margin-left: 1.75rem;">Computer Engineering</span>
+                        </div>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 class="mb-md">Social Media</h3>
+                        <p style="margin-bottom: 1.5rem;">You can also reach me through my social media accounts:</p>
+                        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                            <a href="https://www.linkedin.com/in/-ahmet-akpinar-/" target="_blank"
+                                style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--glass-bg); border-radius: 8px; text-decoration: none;">
+                                <i class="fab fa-linkedin-in" style="font-size: 1.5rem; color: var(--accent);"></i>
+                                <span style="color: var(--text-primary);">LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/one-byte-man" target="_blank"
+                                style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--glass-bg); border-radius: 8px; text-decoration: none;">
+                                <i class="fab fa-github" style="font-size: 1.5rem; color: var(--accent);"></i>
+                                <span style="color: var(--text-primary);">GitHub</span>
+                            </a>
+                            <a href="https://one-byte-man.itch.io/" target="_blank"
+                                style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--glass-bg); border-radius: 8px; text-decoration: none;">
+                                <i class="fas fa-gamepad" style="font-size: 1.5rem; color: var(--accent);"></i>
+                                <span style="color: var(--text-primary);">Itch.io</span>
+                            </a>
+                            <a href="https://www.instagram.com/one_byte_man/" target="_blank"
+                                style="display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: var(--glass-bg); border-radius: 8px; text-decoration: none;">
+                                <i class="fab fa-instagram" style="font-size: 1.5rem; color: var(--accent);"></i>
+                                <span style="color: var(--text-primary);">Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Ahmet Akpınar</h3>
+                    <p>Computer Engineering Student | Game Developer<br>Ankara, Turkey</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--social">
+                    <h3>Social Media</h3>
+                    <div class="social-grid-3x2">
+                        <a href="https://www.linkedin.com/in/-ahmet-akpinar-/" class="social-icon" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/one-byte-man" class="social-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://one-byte-man.itch.io/" class="social-icon" target="_blank">
+                            <i class="fas fa-gamepad"></i>
+                        </a>
+                        <a href="https://www.instagram.com/one_byte_man/" class="social-icon" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://fiuby.com/profile/one_byte_man" class="social-icon" target="_blank">
+                            <i class="fas fa-users"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@one_byte_man" class="social-icon" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Ahmet Akpınar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

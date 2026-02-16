@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ahmet Akpınar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <img src="images/logo.png" alt="Logo">
+                <span>Ahmet Akpınar</span>
+            </a>
+            <ul class="navbar__menu" id="navMenu">
+                <li><a href="index.html" class="navbar__link">Home</a></li>
+                <li><a href="cv.html" class="navbar__link">CV</a></li>
+                <li><a href="projects.html" class="navbar__link">Projects</a></li>
+                <li><a href="about.html" class="navbar__link active">About</a></li>
+                <li><a href="contact.html" class="navbar__link">Contact</a></li>
+            </ul>
+            <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="section" style="padding-top: 120px;">
+        <div class="container">
+            <h1 class="text-center mb-lg">Who Am I?</h1>
+        </div>
+    </section>
+
+    <!-- Biography -->
+    <section class="section">
+        <div class="container">
+            <div class="grid-2" style="align-items: center;">
+                <div style="display: flex; flex-direction: column; gap: 2rem; align-items: center;">
+                    <img src="images/profile_about.jpg" alt="Ahmet Akpınar"
+                        style="width: 100%; max-width: 400px; border-radius: 16px; border: 4px solid var(--accent); object-fit: cover;">
+
+                    <img src="images/during_work.jpg" alt="During Work"
+                        style="width: 100%; max-width: 400px; border-radius: 16px; border: 4px solid var(--accent);box-shadow: 0 8px 32px rgba(0, 173, 181, 0.3); object-fit: cover;">
+                </div>
+                <div>
+                    <h2 class="mb-md" style="text-align: center;">The Story</h2>
+                    <div class="glass-card mb-md">
+                        <p>Ahmet Akpınar is a Computer Engineering student at Ankara University and an independent game
+                            developer driven by the philosophy that every byte counts.</p>
+                    </div>
+                    <div class="glass-card mb-md">
+                        <p>His passion for game development was ignited in middle school when a teacher introduced him
+                            to Scratch, opening the door to a new world of possibilities. However, during the pandemic,
+                            his resources were limited to a Samsung S3 Mini. Lacking a computer, he spent hours watching
+                            game development tutorials, mentally coding and designing mechanics he could not yet build.
+                            Recognizing that passion required a strong technical foundation, he paused his development
+                            dreams to focus entirely on his academic goals.</p>
+                    </div>
+                    <div class="glass-card mb-md">
+                        <p>His resilience was tested during the February 6th Earthquakes while studying at a <strong>Science High School</strong>. 
+                        Despite the challenging circumstances, he transferred to an <strong>Anatolian High School</strong> and achieved a significant academic milestone, 
+                        ranking <strong style="color: var(--accent);">9,981st in Turkey</strong> in the university entrance exam (YKS) with a score of 515. 
+                        This achievement paved the way to Ankara University.</p>
+                    </div>
+                    <div class="glass-card">
+                        <p>After completing the English preparatory program, he acquired his first computer in November.
+                            He immediately began transforming years of theoretical knowledge into practice, mastering C#
+                            and Unity to release his first mobile game, <strong style="color: var(--accent);">'Fruit
+                                Rain'</strong>. Today, publishing under the name <strong
+                                style="color: var(--accent);">'One Byte Man'</strong>, he continues to develop games for
+                            both PC and mobile platforms with a vision to establish his own development studio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-lg">Hobbies & Interests</h2>
+            <div class="hobby-badges">
+                <div class="hobby-badge">
+                    <i class="fas fa-table-tennis"></i>
+                    <span>Table Tennis</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-gamepad"></i>
+                    <span>PC Games</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-camera"></i>
+                    <span>Content Creation</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-flask"></i>
+                    <span>Science</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-plane"></i>
+                    <span>Traveling</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-film"></i>
+                    <span>Movies & Series</span>
+                </div>
+                <div class="hobby-badge">
+                    <i class="fas fa-chess"></i>
+                    <span>Chess</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-lg">My Values</h2>
+            <div class="grid-2">
+                <div class="glass-card">
+                    <i class="fas fa-chart-line"
+                        style="font-size: 2.5rem; color: var(--accent); display: block; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Continuous Improvement</h3>
+                    <p>I try to be better than yesterday every day. Learning new things and improving myself is my top
+                        priority.</p>
+                </div>
+                <div class="glass-card">
+                    <i class="fas fa-bolt"
+                        style="font-size: 2.5rem; color: var(--accent); display: block; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Action-Oriented</h3>
+                    <p>"Sometimes it is the best not to think, just do it" - Take action without overthinking.</p>
+                </div>
+                <div class="glass-card">
+                    <i class="fas fa-lightbulb"
+                        style="font-size: 2.5rem; color: var(--accent); display: block; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Creativity</h3>
+                    <p>Creating new and original projects, developing different perspectives motivates me.</p>
+                </div>
+                <div class="glass-card">
+                    <i class="fas fa-users"
+                        style="font-size: 2.5rem; color: var(--accent); display: block; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--accent); margin-bottom: 1rem;">Community</h3>
+                    <p>University communities and game jam events offer great opportunities for collaboration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="glass-card text-center">
+                <h2 class="mb-md">Let's Get in Touch!</h2>
+                <p style="margin-bottom: 2rem;">Feel free to reach out for new projects or collaborations.</p>
+                <a href="contact.html" class="btn btn--primary">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>Ahmet Akpınar</h3>
+                    <p>Computer Engineering Student | Game Developer<br>Ankara, Turkey</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__section--social">
+                    <h3>Social Media</h3>
+                    <div class="social-grid-3x2">
+                        <a href="https://www.linkedin.com/in/-ahmet-akpinar-/" class="social-icon" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/one-byte-man" class="social-icon" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://one-byte-man.itch.io/" class="social-icon" target="_blank">
+                            <i class="fas fa-gamepad"></i>
+                        </a>
+                        <a href="https://www.instagram.com/one_byte_man/" class="social-icon" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://fiuby.com/profile/one_byte_man" class="social-icon" target="_blank">
+                            <i class="fas fa-users"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@one_byte_man" class="social-icon" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Ahmet Akpınar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
