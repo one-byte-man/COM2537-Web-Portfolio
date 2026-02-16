@@ -39,3 +39,23 @@ The project showcases my work as a **Computer Engineering Student** and **Game D
 ├── script.js       # Main Script (Navbar, Validation, Animations)
 └── style.css       # Main Stylesheet
 ```
+
+## 📝 Course Details
+
+- **University:** Ankara University
+- **Department:** Computer Engineering
+- **Course:** COM2537 - Introduction to Web-Based Programming
+- **Semester:** Fall 2025-2026
+
+## 👤 Author
+
+**Ahmet Akpınar**
+
+- **Role:** Computer Engineering Student & Game Developer
+- **GitHub:** [@one-byte-man](https://github.com/one-byte-man)
+- **Itch.io:** [one-byte-man](https://one-byte-man.itch.io/)
+- **LinkedIn:** [Ahmet Akpınar](https://www.linkedin.com/in/-ahmet-akpinar-/)
+
+---
+
+_Developed by OneByteMan_
